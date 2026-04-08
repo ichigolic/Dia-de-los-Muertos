@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Día de los Muertos | Spanish Celebration</title>
+    <meta name="description" content="Join us for a vibrant celebration of life and memory at the Spanish Day of the Dead event. Music, altars, and tradition.">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-slogan">Echoes of Memory, <br><span class="highlight">Colors of Life.</span></h1>
+            <p class="hero-subtext">A breathtaking tribute to those who live in our hearts.</p>
+            <a href="#register" class="btn-cta">Register Now</a>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </header>
+
+    <!-- Introduction Section -->
+    <section class="intro" id="about">
+        <div class="container">
+            <div class="intro-grid">
+                <div class="intro-text reveal">
+                    <h2 class="section-title">The Celebration</h2>
+                    <p>Experience the magical fusion of tradition and art at the Spanish Day of the Dead. From November 1st to 2nd, the heart of Madrid transforms into a living altar, honoring the departed with vibrant cempasúchil flowers, glowing candles, and festive music.</p>
+                    <div class="event-meta">
+                        <div class="meta-item">
+                            <strong>Date:</strong> <span>Nov 1 - Nov 2, 2026</span>
+                        </div>
+                        <div class="meta-item">
+                            <strong>Location:</strong> <span>Plaza de Cibeles, Madrid, Spain</span>
+                        </div>
+                        <div class="meta-item">
+                            <strong>Organizer:</strong> <span>Asociación de Tradiciones Hispanas</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="intro-visual reveal">
+                    <!-- SVG Decoration -->
+                    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" class="skull-svg">
+                        <path fill="#FFB300" d="M100,20 C140,20 170,50 170,90 C170,110 160,130 150,140 L150,170 C150,175 145,180 140,180 L60,180 C55,180 50,175 50,170 L50,140 C40,130 30,110 30,90 C30,50 60,20 100,20 Z" />
+                        <circle cx="70" cy="80" r="15" fill="#311B92" />
+                        <circle cx="130" cy="80" r="15" fill="#311B92" />
+                        <path d="M85,110 Q100,120 115,110" stroke="#311B92" stroke-width="5" fill="none" />
+                        <path d="M60,180 L60,160 M80,180 L80,160 M100,180 L100,160 M120,180 L120,160 M140,180 L140,160" stroke="#181818" stroke-width="3" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Schedule Section -->
+    <section class="schedule" id="schedule">
+        <div class="container">
+            <h2 class="section-title text-center">Event Timeline</h2>
+            <div class="timeline">
+                <div class="timeline-item reveal left">
+                    <div class="timeline-content">
+                        <span class="time">Nov 1 | 18:00</span>
+                        <h3>Opening Ceremony</h3>
+                        <p>The lighting of the Great Altar at Plaza de Cibeles, followed by a formal welcoming speech and candlelit procession.</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal right">
+                    <div class="timeline-content">
+                        <span class="time">Nov 1 | 21:00</span>
+                        <h3>Night of the Souls</h3>
+                        <p>A mesmerizing performance of traditional music and dance, featuring the "Danza de los Diablos".</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal left">
+                    <div class="timeline-content">
+                        <span class="time">Nov 2 | 10:00</span>
+                        <h3>Artisanal Workshops</h3>
+                        <p>Learn to craft sugar skulls (calaveritas), paper flowers, and traditional "pan de muerto".</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal right">
+                    <div class="timeline-content">
+                        <span class="time">Nov 2 | 20:00</span>
+                        <h3>Closing Fiesta</h3>
+                        <p>A grand carnival parade through the streets with skeleton costumes, floats, and fireworks.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section" id="location">
+        <div class="container">
+            <h2 class="section-title text-center">Find Us</h2>
+            <div class="map-container reveal">
+                <!-- Google Maps Embed -->
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.625399589311!2d-3.6934336!3d40.4192462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4228994784a929%3A0x6b306b3a3c1f0b0!2sPlaza%20de%20Cibeles!5e0!3m2!1sen!2ses!4v1712560000000!5m2!1sen!2ses" 
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Section -->
+    <section class="register-section" id="register">
+        <div class="container text-center">
+            <h2 class="section-title">Reserve Your Spot</h2>
+            <p>Participation is free, but registration is required for workshops and specific events.</p>
+            <form id="registerForm" class="register-form reveal">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email Address" required>
+                <button type="submit" class="btn-cta">Sign Up Now</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-info">
+                    <h3>Día de los Muertos</h3>
+                    <p>Celebrating the beauty of memory and the continuity of life.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#schedule">Schedule</a></li>
+                        <li><a href="#location">Map</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <!-- Generic Social Icons as placeholders -->
+                        <span class="icon">FB</span>
+                        <span class="icon">IG</span>
+                        <span class="icon">TW</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Asociación de Tradiciones Hispanas. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
